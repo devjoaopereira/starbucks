@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@700&display=swap');
 
+:root {
+    --bg-primary: #117050;
+}
+
 /* * & BODY */
 * {
     box-sizing: border-box;
@@ -9,4 +13,97 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+.header__bar {
+    height: 10px;
+    background-color: var(--bg-primary);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header__logo {
+    width: 64px;
+    height: 64px;
+}
+
+.header__search-menu-area {
+    display: flex;
+    align-items: center;
+}
+
+.header__search-form {
+    display: flex;
+}
+
+.header__search-input {
+    width: 100%;
+    max-width: 250px;
+    padding-left: 15px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #999;
+    outline: 0;
+}
+.header__search-input::placeholder {
+    font-size: 16px;
+}
+
+.header__search-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.header__search-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.header__menu {
+    margin-left: 70px;
+}
+
+.header__menu-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* MEDIA */
+@media (max-width: 500px) {
+
+    .header__logo-area {
+        margin-left: 20px;
+    }
+
+    .header__search-input {
+        max-width: 180px;
+    }
+
+    .header__menu {
+        margin-left: 35px;
+        margin-right: 20px;
+    }
+
 }
