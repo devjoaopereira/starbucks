@@ -194,6 +194,27 @@ body {
     background-size: cover;
 }
 
+/* AREA4 */
+.area4 {
+    display: grid;
+    grid-template-columns: 470px 1fr;
+    background-color: #E8E9EE;
+}
+
+.area4__content {
+    padding: 160px 80px;
+}
+
+.area4__h2 {
+    margin-top: 30px;
+}
+
+.area4__background {
+    background-image: url('../images/bg3.jpg');
+    background-position: left;
+    background-size: cover;
+}
+
 /* CONTAINER, H1, H2, P, BAR, BUTTON */
 .container {
     width: 100%;
@@ -285,6 +306,15 @@ body {
     }
 
     .area3__content {
+        padding: 80px 20px;
+    }
+
+    /* AREA4 */
+    .area4 {
+        grid-template-columns: 1fr;
+    }
+
+    .area4__content {
         padding: 80px 20px;
     }
 
