@@ -171,6 +171,29 @@ body {
     background-size: cover;
 }
 
+/* AREA3 */
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area3__content {
+    padding: 160px 80px;
+    background-image: url('../images/bg2.jpg');
+    background-position: left;
+    background-size: cover;
+}
+
+.area3__h2 {
+    margin-top: 30px;
+}
+
+.area3__background {
+    background-image: url('../images/f5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
 /* CONTAINER, H1, H2, P, BAR, BUTTON */
 .container {
     width: 100%;
@@ -254,6 +277,15 @@ body {
     .area2__content {
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    /* AREA3 */
+    .area3 {
+        grid-template-columns: 1fr;
+    }
+
+    .area3__content {
+        padding: 80px 20px;
     }
 
     /* CONTAINER, H1, H2 */
