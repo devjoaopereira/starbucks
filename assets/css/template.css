@@ -223,6 +223,15 @@ body {
     background-size: cover;
 }
 
+/* FOOTER */
+.footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: #333;
+    color: #FFF;
+}
+
 /* CONTAINER, H1, H2, P, BAR, BUTTON */
 .container {
     width: 100%;
@@ -329,6 +338,12 @@ body {
     /* AREA5 */
     .area5 {
         height: 200px;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     /* CONTAINER, H1, H2 */
