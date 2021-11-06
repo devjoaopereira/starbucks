@@ -278,6 +278,35 @@ body {
 }
 
 /* MEDIA */
+@media (max-width: 1099px) {
+
+    /* CONTAINER */
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media (max-width: 843px) {
+
+    /* AREA1 */
+    .area1 {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    /* AREA2 */
+    .area2 {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    /* AREA3 */
+    .area3 {
+        grid-template-columns: 3fr 2fr;
+    }
+
+}
+
 @media (max-width: 500px) {
 
     /* HEADER */
