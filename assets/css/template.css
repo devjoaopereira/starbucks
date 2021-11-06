@@ -215,6 +215,14 @@ body {
     background-size: cover;
 }
 
+/* AREA5 */
+.area5 {
+    height: 600px;
+    background-image: url('../images/bg4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
 /* CONTAINER, H1, H2, P, BAR, BUTTON */
 .container {
     width: 100%;
@@ -316,6 +324,11 @@ body {
 
     .area4__content {
         padding: 80px 20px;
+    }
+
+    /* AREA5 */
+    .area5 {
+        height: 200px;
     }
 
     /* CONTAINER, H1, H2 */
